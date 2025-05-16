@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real Estate | Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+ <header class="navbar">
+  <div class="logo">RealEstatePro</div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="projects.html" target="_blank">Projects</a></li>
+      <li><a href="media.html" target="_blank">Media</a></li>
+      <li><a href="blog.html" target="_blank">Blog</a></li>
+      <li><a href="about.html" target="_blank">About Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <!-- HERO SLIDESHOW -->
+  <section class="hero">
+    <div class="hero-slide">
+      <img src="images/5.jpg" alt="Luxury Villa 1" />
+      <div class="hero-text">Modern Real Estate</div>
+    </div>
+    <div class="hero-slide">
+      <img src="images/2.jpg" alt="Luxury Villa 2" />
+      <div class="hero-text">Your Dream Home</div>
+    </div>
+    <div class="hero-slide">
+      <img src="images/1.jpg" alt="Luxury Villa 3" />
+      <div class="hero-text">Live Luxuriously</div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECT -->
+  <section class="featured section">
+    <div class="featured-content">
+      <div class="featured-info">
+        <h2>Signature Towers</h2>
+        <p>The Eiffel Tower is one of the most famous towers in the world. It is located in Paris, France, and stands 330 meters tall. The tower was built in 1889 as the entrance arch for the World's Fair held in Paris that year. Designed by the engineer Gustave Eiffel, the tower was originally meant to be a temporary structure. However, it became so popular that it was never taken down. Made from iron in a lattice design, the Eiffel Tower is a remarkable example of 19th-century engineering. Today, it is a symbol of Paris and attracts millions of tourists every year who come to enjoy its beautiful views and unique architecture.
+
+
+
+
+
+
+
+
+.</p>
+      </div>
+      <div class="featured-img">
+        <img src="images/t1.jpg" alt="Featured Project" />
+      </div>
+    </div>
+  </section>
+
+<section class="stats-section" id="stats">
+  <div class="overlay"></div>
+  <div class="stats-container">
+    <div class="stat">
+      <span class="count" data-target="4">6</span><span class="plus">+</span>
+      <p>Decades of Experience</p>
+    </div>
+    <div class="stat">
+      <span class="count" data-target="75">7</span><span class="plus">+</span>
+      <p>Projects Delivered</p>
+    </div>
+    <div class="stat">
+      <span class="count" data-target="4500">8</span><span class="plus">+</span>
+      <p>Happy Families</p>
+    </div>
+    <div class="stat">
+      <span class="count" data-target="10">9</span><span class="plus">+</span>
+      <p>Million Sqft Delivered and Ongoing</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- LATEST PROJECTS -->
+  <section class="projects section">
+    <h2>Latest Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="images/1.jpg" alt="Project 1" />
+        <h3>Urban Heights</h3>
+        <p>Modern apartments with skyline views.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/2.jpg" alt="Project 2" />
+        <h3>Green Acres</h3>
+        <p>Eco-friendly gated community.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/3.jpg" alt="Project 3" />
+        <h3>Skyline Residency</h3>
+        <p>Luxury high-rise near metro.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEDIA SECTION -->
+ <section class="media" id="media">
+  <h2 class="section-title">Our Achievements</h2>
+  
+  <div class="media-wrapper">
+    <button class="scroll-btn left" onclick="scrollMedia(-1)">&#10094;</button>
+    
+    <div class="media-scroll-container" id="mediaScroll">
+      <div class="media-card">
+        <img src="images/1.jpg" alt="Award 1">
+        <p>Awarded Best Realty Firm 2023</p>
+      </div>
+      <div class="media-card">
+        <img src="images/2.jpg" alt="Award 2">
+        <p>Luxury Project of the Year</p>
+      </div>
+      <div class="media-card">
+        <img src="images/3.jpg" alt="Award 3">
+        <p>Customer Satisfaction Award</p>
+      </div>
+      <div class="media-card">
+        <img src="images/4.jpg" alt="Award 4">
+        <p>Excellence in Architecture</p>
+      </div>
+      <div class="media-card">
+        <img src="images/t1.jpg" alt="Award 5">
+        <p>Excellence in Architecture</p>
+      </div>
+      <div class="media-card">
+        <img src="images/t2.jpg" alt="Award 6">
+        <p>Excellence in Architecture</p>
+      </div>
+      <!-- Add more cards if needed -->
+    </div>
+    
+    <button class="scroll-btn right" onclick="scrollMedia(1)">&#10095;</button>
+  </div>
+</section>
+<!-- FAQ SECTION -->
+<section class="faq-section" id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-container">
+    <div class="faq-item" onclick="toggleFAQ(this)">
+      <h3>What is Supreme Universal?</h3>
+      <p class="faq-answer">We are a luxury real estate brand with over 20 years of experience.</p>
+    </div>
+    <div class="faq-item" onclick="toggleFAQ(this)">
+      <h3>Where are your projects located?</h3>
+      <p class="faq-answer">Our projects are located in Mumbai, Pune, and other major cities.</p>
+    </div>
+    <div class="faq-item" onclick="toggleFAQ(this)">
+      <h3>Do you offer site visits?</h3>
+      <p class="faq-answer">Yes, site visits can be scheduled by appointment.</p>
+    </div>
+     <div class="faq-item" onclick="toggleFAQ(this)">
+      <h3>How can I book a site visit?</h3>
+      <p class="faq-answer">You can book a site visit by filling out the contact form or calling our helpline.
+
+</p>
+    </div>
+    <div class="faq-item" onclick="toggleFAQ(this)">
+      <h3>Are your projects RERA registered?</h3>
+      <p class="faq-answer"> Yes, all our projects are RERA registered with valid IDs for transparency.</p>
+    </div>
+    <div class="faq-item" onclick="toggleFAQ(this)">
+      <h3>What amenities do your projects include?</h3>
+      <p class="faq-answer">Our projects offer luxury amenities like pools, gyms, security, and smart home features.</p>
+    </div>
+    <div class="faq-item" onclick="toggleFAQ(this)">
+      <h3> Do you offer flexible payment options?</h3>
+      <p class="faq-answer">Yes, we offer multiple payment plans tailored to your needs.</p>
+    </div>
+    <!-- Add more questions similarly -->
+  </div>
+</section>
+
+
+
+
+
+  <!-- ABOUT US -->
+  <section id="about-us">
+  <div class="container about-container">
+
+    <!-- Left: Contact Info -->
+    <div class="about-col contact-info">
+      <h3>Contact Us</h3>
+      <p><strong>Corporate Office - Mumbai</strong><br>
+         18th floor, Supreme Headquarters, 14th & 33rd Road, Bandra West, Mumbai – 400 050<br>
+         📞 +91 2267852000<br>
+         📧 info@supremeuniversal.in
+      </p>
+      <p><strong>Pune Office</strong><br>
+         "B" Wing 1404/05, Amar Business Zone, Baner Road, Pune - 411045<br>
+         📞 +91 2067295001
+      </p>
+      <p>Sales Enquiries:<br>
+         📞 +91 8904332090
+      </p>
+    </div>
+
+    <!-- Center: Our Goals -->
+    <div class="about-col our-goals">
+      <h3>Our Goals</h3>
+      <p>
+        At Supreme Universal, we strive to create luxurious and sustainable living spaces that blend modern design with comfort. 
+        Our goal is to deliver quality projects on time while maintaining transparency and trust with our clients.
+      </p>
+      <p>
+        We are committed to innovation, excellence, and building lasting relationships with our customers.
+      </p>
+    </div>
+
+    <!-- Right: Social Media & Logo -->
+    <div class="about-col social-media">
+      <h3>Follow Us</h3>
+      <img src="logo.png" alt="Supreme Universal Logo" class="about-logo" />
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook" class="social-icon fb">F</a>
+        <a href="#" aria-label="Instagram" class="social-icon insta">I</a>
+        <a href="#" aria-label="Twitter" class="social-icon twitter">T</a>
+        <a href="#" aria-label="LinkedIn" class="social-icon linkedin">L</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</body>
+</html>
