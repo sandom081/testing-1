@@ -1,0 +1,69 @@
+.guten-W0L8GL {
+    justify-content: center;
+}
+
+.guten-W0L8GL .guten-social-icon {
+    text-align: center;
+}
+
+.guten-W0L8GL .guten-social-icon i {
+    font-size: 18px;
+}
+
+.guten-W0L8GL.horizontal>div:not(:first-child) {
+    margin-left: 10px;
+}
+
+.guten-W0L8GL.vertical>div:not(:first-child) {
+    margin-top: 10px;
+}
+
+.guten-social-icons.fill .guten-social-icon #guten-d12RJv i,
+.guten-social-icons.border .guten-social-icon #guten-d12RJv i,
+.guten-social-icons.custom .guten-social-icon #guten-d12RJv i {
+    color: var(--wp--preset--color--theme-0);
+}
+
+.guten-social-icons.border .guten-social-icon #guten-d12RJv {
+    border-color: var(--wp--preset--color--theme-0);
+}
+
+.guten-social-icons.fill .guten-social-icon #guten-d12RJv,
+.guten-social-icons.border .guten-social-icon #guten-d12RJv,
+.guten-social-icons.custom .guten-social-icon #guten-d12RJv {
+    background-color: rgba(255, 184, 184, 0);
+}
+
+.guten-social-icons.fill .guten-social-icon #guten-zDobe2 i,
+.guten-social-icons.border .guten-social-icon #guten-zDobe2 i,
+.guten-social-icons.custom .guten-social-icon #guten-zDobe2 i {
+    color: var(--wp--preset--color--theme-0);
+}
+
+.guten-social-icons.border .guten-social-icon #guten-zDobe2 {
+    border-color: var(--wp--preset--color--theme-0);
+}
+
+.guten-social-icons.fill .guten-social-icon #guten-zDobe2,
+.guten-social-icons.border .guten-social-icon #guten-zDobe2,
+.guten-social-icons.custom .guten-social-icon #guten-zDobe2 {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.guten-social-icons.fill .guten-social-icon #guten-zDobe2,
+.guten-social-icons.border .guten-social-icon #guten-zDobe2,
+.guten-social-icons.custom .guten-social-icon #guten-zDobe2 {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.guten-hMcehA {
+    align-self: flex-start;
+    vertical-align: top;
+}
+
+.guten-3Bs3Lv.guten-client-logo .swiper-container .content-image .main-image {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}

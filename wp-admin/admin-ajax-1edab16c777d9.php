@@ -1,0 +1,1 @@
+No Content: https://ynyservice.com/wp-admin/admin-ajax.php
